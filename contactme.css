@@ -1,56 +1,82 @@
-body {
-    margin: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: norican;
-    }
-  
-  topnav {
-      margin: 2px;
-      flex: 0 auto;
-      display: flex;
-      justify-content: space-evenly;
-      position: center;
-      }
-    
-   topnav a {
-        display: block;
-        color: #348da5;
-        font-size: x-large;
-        text-align: center;
-        text-decoration: none;
-        font-family: 'Umbuntu Condensed';
-        }
-    
-   topnav a:hover {
-        background-color: white;
-        color: #8E1E82;
-        }
+html{   
+     background-position: center;
+    background: url(Desk.jpeg) no-repeat center center fixed;
+    background-repeat: no-repeat;  
+display: flex;
+    -webkit-background-size: cover;
+    -moz-bround-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     padding:auto;
+     }
+ 
+ body {
+     margin: 5px;
+     display: flex;
+     flex-direction: column;
+     }
+ 
+     topnav {
+         margin: 2px;
+         flex: 0 auto;
+         display: flex;
+         justify-content: space-evenly;
+         position: center;
+         align-content: center;
+         padding: 5px;
+         }
+     
+ 
+    topnav a {
+         display: flex;
+         color: #348da5;
+         font-size: x-large;
+         text-align: center;
+         text-decoration: none;
+         font-family: 'Cabin Condensed', sans-serif;
 
-  
+         }
+     
+ 
+    topnav a:hover {
+         background-color: #ddd;
+         color: #8E1E82;
+         }
+   
+ header {
+     margin: 2px;  
+     flex: 1 auto;
+     color: #8E1E82;
+     justify-content: center;
+     text-align: center;
+     font-family: 'Dancing Script', cursive;  
+     font-size: 10rem;      
+     padding: 0px;
+ }
+ 
   main {
-  font-size: 3rem;
-  margin: 2px;
-  color: #348da5;
-  flex: 2;
-  justify-content: center;
-  align-items: center; 
-  text-align: center;
-  }
+position: center;
+ margin: 2px;
+ min-height: 67vh;
+ flex: 2;
+ font-size: x-large;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ }
   
-  
-
-          
-    
+ 
   footer {
-    display: flex;
-    padding: 10px;
-    color: #8E1E82;
-    justify-content: center;
-    justify-content: space-around;
-    position: center;
-    margin: 2px;
-    flex: 3 auto;
-    } 
-      
+ display: flex;
+ padding: 10px;
+ color: #8E1E82;
+ justify-content: center;
+ justify-content: space-around;
+ position: center;
+ margin: 2px;
+ flex: 3 auto;
+ }
+   
+ 
+ 
+ 

@@ -1,11 +1,20 @@
-body {
-    margin: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    font-family: norican;
-   }
-  
+html{   
+     background-position: center;
+    background: url(Desk.jpeg) no-repeat center center fixed;
+    background-repeat: no-repeat;  
+    display: flex; 
+    -webkit-background-size: cover;
+    -moz-bround-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     padding:auto;
+     }
+ 
+ body {
+     margin: 5px;
+     display: flex;
+     flex-direction: column;
+     }
   topnav {
       margin: 2px;
       flex: 0 auto;
@@ -20,18 +29,14 @@ body {
         font-size: x-large;
         text-align: center;
         text-decoration: none;
-        font-family: 'Umbuntu Condensed';
         }
     
    topnav a:hover {
         background-color: white;
         color: #8E1E82;
         }
-  
-  img {
-  margin: 5px;
-  flex: 0 auto;
-  }
+
+        
   
   main {
   font-size: 3rem;
@@ -43,12 +48,20 @@ body {
   text-align: center;
   }
   
-  
+  header {
+     margin: 2px;  
+     flex: 1 auto;
+     color: #8E1E82;
+     justify-content: center;
+     text-align: center;
+     font-family: 'Dancing Script', cursive;  
+     font-size: 10rem;      
+     padding: 0px;
+ }
   table {
   empty-cells: hide;
   border-spacing: 20px;
-
-  min-height: 67vh;
+ min-height: 67vh;
   }
   
   
