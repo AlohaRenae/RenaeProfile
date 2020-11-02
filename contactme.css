@@ -2,8 +2,7 @@ html{
      background-position: center;
     background: url(Desk.jpeg) no-repeat center center fixed;
     background-repeat: no-repeat;  
-display: flex;
-    -webkit-background-size: cover;
+     -webkit-background-size: cover;
     -moz-bround-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -13,14 +12,15 @@ display: flex;
  body {
      margin: 5px;
      display: flex;
-     flex-direction: column;
+    
+    justify-items: space-between;
      }
  
      topnav {
          margin: 2px;
-         flex: 0 auto;
+         flex: 1;
          display: flex;
-         justify-content: space-evenly;
+         justify-content: space-between;
          position: center;
          align-content: center;
          padding: 5px;
@@ -55,10 +55,13 @@ display: flex;
  }
  
   main {
+      display: flex;
+      flex-direction: column;
+      min-width: 100vh;
 position: center;
  margin: 2px;
  min-height: 67vh;
- flex: 2;
+ 
  font-size: x-large;
  justify-content: center;
  align-items: center;
