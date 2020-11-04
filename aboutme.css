@@ -28,14 +28,14 @@ html{
    topnav a {
         display: block;
         color: #348da5;
-        font-size: x-large;
+        font-size: 2rem;
         text-align: center;
         text-decoration: none;
         font-family: 'Cabin Condensed', sans-serif;
         }
     
    topnav a:hover {
-        background-color: #ddd;
+        background-color: transparent;
         color: #8E1E82;
  
      }
@@ -43,7 +43,7 @@ html{
      header {
           margin: 2px;  
           flex: 1 auto;
-          color: #8E1E82;
+          color: #348da5;
           justify-content: center;
           text-align: center;
           font-family: 'Dancing Script', cursive;  
@@ -57,7 +57,7 @@ min-height: 67vh;
 font-size: 2rem;
 font-family: 'Cabin Condensed', sans-serif;
 margin: 2px;
-color: #348da5;
+color: #8E1E82;
 flex: 2;
 justify-content: center;
 align-items: center; 
@@ -67,7 +67,7 @@ text-align: center;
 footer {
   display: flex;
   padding: 10px;
-  color: #8E1E82;
+  color: #348da5;
   justify-content: center;
   justify-content: space-around;
   position: center;
@@ -75,6 +75,10 @@ footer {
  }
  
 
+ a:hover {
 
+     color: #8E1e82;
+   background-color: transparent;
+   text-decoration: underline;
 
           

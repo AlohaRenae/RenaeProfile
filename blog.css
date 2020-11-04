@@ -27,7 +27,7 @@ html{
  topnav a {
       display: block;
       color: #348da5;
-      font-size: x-large;
+      font-size: 2rem;
       text-align: center;
       text-decoration: none;
       font-family: 'Cabin Condensed', sans-serif;
@@ -42,7 +42,7 @@ html{
       header {
           margin: 2px;  
           flex: 1 auto;
-          color: #8E1E82;
+          color: #348da5;
           justify-content: center;
           text-align: center;
           font-family: 'Dancing Script', cursive;  
@@ -54,11 +54,12 @@ html{
 main {
 font-size: 3rem;
 margin: 2px;
-color: #348da5;
+color: #8E1E82;
 flex: 2;
 justify-content: center;
 align-items: center; 
 text-align: center;
+font-family: 'Cabin Condensed', sans-serif;
 }
 
 
@@ -75,7 +76,7 @@ color: #348da5;
 height: 50px;
 width: 50px;
 text-align: center;
-border:5px solid #348da5 ; 
+border:5px solid #348da5; 
 opacity: .5;
 font-size: 3rem;}
 
@@ -88,7 +89,7 @@ opacity: .5;}
 footer {
   display: flex;
   padding: 10px;
-  color: #8E1E82;
+  color: #348da5;
   justify-content: center;
   justify-content: space-around;
   position: center;

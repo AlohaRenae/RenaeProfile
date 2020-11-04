@@ -9,44 +9,42 @@ html{
      padding:auto;
      }
  
- body {
+ main {
      margin: 5px;
      display: flex;
     
-    justify-items: space-between;
+  
      }
- 
-     topnav {
-         margin: 2px;
-         flex: 1;
-         display: flex;
-         justify-content: space-between;
-         position: center;
-         align-content: center;
-         padding: 5px;
-         }
-     
- 
-    topnav a {
-         display: flex;
-         color: #348da5;
-         font-size: x-large;
-         text-align: center;
-         text-decoration: none;
-         font-family: 'Cabin Condensed', sans-serif;
+ topnav {
+        margin: 2px;
+        flex: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        position: center;
+        align-content: center;
+        padding: 5px;
+        }
+    
 
-         }
-     
- 
-    topnav a:hover {
-         background-color: #ddd;
-         color: #8E1E82;
-         }
+   topnav a {
+        display: flex;
+        color: #348da5;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Cabin Condensed', sans-serif;
+        }
+    
+
+   topnav a:hover {
+        background-color: transparent;
+        color: #8E1E82;
+        }
    
  header {
      margin: 2px;  
      flex: 1 auto;
-     color: #8E1E82;
+     color: #348da5;
      justify-content: center;
      text-align: center;
      font-family: 'Dancing Script', cursive;  
@@ -55,24 +53,27 @@ html{
  }
  
   main {
+      text-decoration: bold;
+    display: flex;
+    color: #8E1E82;
+    font-size: 3rem;
+    text-align: center;
+       font-family: 'Cabin Condensed', sans-serif;
       display: flex;
       flex-direction: column;
-      min-width: 100vh;
-position: center;
+     position: center;
  margin: 2px;
- min-height: 67vh;
- 
- font-size: x-large;
- justify-content: center;
- align-items: center;
- text-align: center;
+
+ align-content: center;
+
+
  }
   
- 
+
   footer {
  display: flex;
  padding: 10px;
- color: #8E1E82;
+ color: #348da5;
  justify-content: center;
  justify-content: space-around;
  position: center;
