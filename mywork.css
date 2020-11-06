@@ -1,6 +1,6 @@
 html{   
     background-position: center;
-   background: url(Desk.jpeg) no-repeat center center fixed;
+   background-color: #ddd;
    background-repeat: no-repeat;  
     -webkit-background-size: cover;
    -moz-bround-size: cover;
@@ -32,7 +32,7 @@ topnav {
    
 
   topnav a:hover {
-       background-color: #ddd;
+       background-color: #dddd;
        color: #8E1E82;
        }
 
@@ -48,7 +48,7 @@ header {
     justify-content: center;
     text-align: center;
     font-family: 'Dancing Script', cursive;  
-    font-size: 10rem;      
+    font-size: 8rem;      
     padding: 0px;
 }
 
@@ -57,7 +57,7 @@ margin: 2px;
 flex: 2 auto;
 font-size: x-large;
 text-align: center;
-color: #8E1E82;
+color: black;
  }
 
  p {padding: 20px;
@@ -65,9 +65,9 @@ color: #8E1E82;
     margin: 5px;
     display: flex;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Cabin Condensed', sans-serif;
-    color: #8e1e82;
+
     }  
 
 
@@ -78,15 +78,17 @@ display: flex;
 align-content: space-around;    
 }
 
-td{width: 600px;
+td{
+    
+    width: 600px;
     height: 300px;
 justify-content: space-between;
-border: 10px solid #348da5;
-background-color: #ddd;
+border: 10px solid ;
+background-color: #348da5;
 text-align: center;
 font-family: 'Dancing Script';
-font-size: 2rem;
-color: #8e1e82;
+font-size: 3rem;
+color: rgb(80, 76, 76);
 }
 
 

@@ -9,12 +9,7 @@ html{
     background-size: cover;
      padding:auto;
      }
- 
- body {
-     margin: 5px;
-     display: flex;
-     flex-direction: column;
-     }
+
 
      topnav {
     margin: 2px;
@@ -41,21 +36,21 @@ html{
 
       header {
           margin: 2px;  
-          flex: 1 auto;
+         
           color: #348da5;
           justify-content: center;
           text-align: center;
           font-family: 'Dancing Script', cursive;  
-          font-size: 10rem;      
-          padding: 0px;
+          font-size: 8rem;      
+       
       }
       
 
 main {
-font-size: 3rem;
-margin: 2px;
-color: #8E1E82;
-flex: 2;
+font-size: 1.75rem;
+margin: 0px 300px;
+color: black;
+position: center;
 justify-content: center;
 align-items: center; 
 text-align: center;
@@ -64,26 +59,30 @@ font-family: 'Cabin Condensed', sans-serif;
 
 
 table {
+    margin: 0px 500px;
+    justify-content: center;
+align-items: center; 
+    position: center;
 empty-cells: hide;
-border-spacing: 20px;
-min-width: 67vh;
-min-height: 67vh;
+border-spacing: 30px;
+
 }
 
 
 table td {
-color: #348da5;
-height: 50px;
-width: 50px;
+    background-color: #348da5;
+color: #ddd;
+height: 220px;
+width: 220px;
 text-align: center;
-border:5px solid #348da5; 
-opacity: .5;
+border:5px solid white; 
+opacity: .75;
 font-size: 3rem;}
 
 td:hover {
-background-color: #348da5;
-color: white;
-opacity: .5;}
+background-color: white;
+color: #348da5;
+opacity: .75;}
         
   
 footer {
