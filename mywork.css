@@ -73,18 +73,18 @@ color: black;
 
 table{
 position: center;
-justify-content: space-around;
+justify-content: center;
 display: flex;
-align-content: space-around;    
+align-content: center;    
 }
 
 td{
-    
+    align-content: center;   
     width: 600px;
     height: 300px;
-justify-content: space-between;
+justify-content: center;
 border: 10px solid ;
-background-color: #348da5;
+background-color: white;
 text-align: center;
 font-family: 'Dancing Script';
 font-size: 3rem;
@@ -93,7 +93,7 @@ color: rgb(80, 76, 76);
 
 
 a.hover {
-background-color: red;
+background-color: red
 color: white;
 opacity: .5;}
        
